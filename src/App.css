@@ -55,3 +55,19 @@ body {
   color: white;
   font-size: 2.5rem;
 }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.under-construction {
+  background-color: yellow;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
